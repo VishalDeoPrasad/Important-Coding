@@ -1,0 +1,11 @@
+#Write a program in python to exit from a loop: like brute force:
+  #if user input exit then it Exit from loop.
+  
+  
+while True:
+	user_input=raw_input("Enter Exit to out of loop:")
+ 	if (user_input=='exit' or user_input=='EXIT' or user_input=='Exit'):
+ 		print "Program Exit"
+ 		break
+ 	else:
+ 		print "You Enter %s"%user_input
